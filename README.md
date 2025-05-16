@@ -1,7 +1,7 @@
 # AI_Agent
 
 ## How to install virtual environment ? 
-###MAC or CodeSpace 
+### MAC or CodeSpace 
 source .venv/bin/activate 
 ### Window CMD 
 .venv\Scripts\activate.bat 
