@@ -19,3 +19,9 @@ pip install -r requirements.txt
 4. Create an API Key 
 5. Assign key to the project
 6. Connect to a billing accountt
+
+## Agent 
+- Basic Agent (greeting agent)
+- Tool Agent (give agnet tool to use)
+- LiteLLM Agent( use other LLM like OpenAI,Llama by using Openrouter)
+  
