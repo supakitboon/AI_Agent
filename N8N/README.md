@@ -23,7 +23,7 @@ YOu might have a question why we need docker ?
 3.) Open terminal and run commands to install and setup 
 '''
 brew install ngrok
-ngrok config add-authtoken 2xmrPQU9PGhqizLLLIsglCjerXM_4RYzNeJh8cj8SzBibVigQ
+ngrok config add-authtoken #############################
 '''
 4.) Go to Deploy your app online & Click deploy your static domain
 You would receive this 
