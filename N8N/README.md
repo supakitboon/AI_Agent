@@ -1,4 +1,19 @@
-# Tutorial: set up n8n on local host 
+## There are 2 ways to create a n8n project
+
+1.)Use Docker + ngrok if you want…
+- A zero-cost playground for personal or small-team automations.
+- Full control over packages, custom code, and data residency.
+- To integrate tightly with your local/dev environment or internal services.
+
+2.)Use n8n Cloud if you need…
+- A fully managed, always-on service with automatic SSL.
+- Built-in team collaboration features and enterprise support.
+- To avoid any DevOps overhead or maintenance work.
+
+🗒️Note: If you choose the first option, please follow below
+
+
+## Tutorial: set up n8n on local host 
 Note: You don't have to do this if you use n8n.cloud
 
 ### Step 1: Set up Docker Desktop for n8n 
@@ -17,13 +32,15 @@ docker volume create {volume_name}
 docker run -it --rm --name n8n -p 5678:5678 -v {volume_name}:/home/node/.n8n docker.n8n.io/n8nio/n8n
 ```
 
-Note: you can read the document about it via this link [https://docs.n8n.io/hosting/installation/docker/]
+🗒️Note: you can read the document about it via this link [https://docs.n8n.io/hosting/installation/docker/]
 When we run all of this, the n8n will be installed on our computer in the path that we set up
 
 You might have a question about why we need Docker. 
 
 
+**Step 2: Install and configure ngrok**
 ### Step 2: Set up Ngrok for n8n 
+
 1.) Setup and installation 
 
 2.) Select the OS that you are using 
@@ -40,13 +57,13 @@ ngrok http-- url=pigeon-game-tiger.ngrok-free.app 80 # keep it, we will use it i
 ```
 5.) Click on the domain and copy the link 
 
-### Step 3: run image file on Docker
+### Step 3: Run the image file on Docker
 1.) Click the image on the left panel
 
 2.) Run our image 
 
 3.) Setup Optional Setting 
-Fill this info 
+Fill in this info 
 ```
 - Container name: Myn8n #any name 
 - Ports: 5555#any number
@@ -62,7 +79,7 @@ Variable: N8N_DEFAULT_BINARY_DATA_MODE Value: filesystem
 ```
 ngrok http-- url=pigeon-game-tiger.ngrok-free.app 5555#Change to your port number
 ```
-Finally, you would receive a public URL.
+Finally, you would receive a public URL. Create an account and access it to build your n8n project hehe.
 
 
 
