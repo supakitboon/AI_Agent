@@ -1,3 +1,7 @@
+## Tech Stack
+[![ngrok](https://img.shields.io/badge/ngrok-14A6F0?style=flat-square&logo=ngrok&logoColor=white)](https://ngrok.com)
+[![n8n](https://img.shields.io/badge/n8n-000000?style=flat-square&logo=n8n&logoColor=white)](https://n8n.io)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)  
 ## There are 2 ways to create a n8n project
 
 1.)Use Docker + ngrok if you want…
@@ -16,7 +20,7 @@
 ## Tutorial: set up n8n on local host 
 Note: You don't have to do this if you use n8n.cloud
 
-### Step 1: Set up Docker Desktop for n8n 
+Step 1: Set up Docker Desktop for n8n 
 1.) Download Docker Desktop
 
 2.) Go to the Image and terminal 
